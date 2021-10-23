@@ -1,0 +1,2 @@
+Login, password, salt;
+Nikita, coolparolm, 050520001050;
