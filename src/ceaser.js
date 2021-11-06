@@ -85,7 +85,7 @@ frequency(uncode1) {
     var uncode1 = readMe.toLowerCase(); 
     var table = ['о','е','а','и','н','т','с','р','в','л','к','м','д','п','у','я','ы','ь','г','з','б','ч','й','х','ж','ш','ю','ц','щ','э','ф','ъ','ё'];
     var ourtable = this.frequency(uncode1);
-    console.log(this.frequencyBigram(uncode1,ourtable))
+    //console.log(this.frequencyBigram(uncode1,ourtable))
     for (var i=0;i<uncode1.length;i++)
     {  var m=0;
             while ((uncode1[i]!=ourtable[m]) && (m<table.length))
